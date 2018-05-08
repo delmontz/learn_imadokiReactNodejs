@@ -1,1 +1,2 @@
-# learn_imadokiReactNodejs
+# いまどきのJSプログラマーのための Node.jsとReactアプリケーション開発テクニック
+写経学習用リポジトリ
