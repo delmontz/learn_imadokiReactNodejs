@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+   <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js"></script>
+</head>
+
+<body>
+   <h1>DGLは世界を征するう！</h1>
+   <div id="disp"></div>
+   <script type="text/babel">
+      const root = document.querySelector('#disp');
+      const pictUrl = 'https://dgl.tokyo/wp-content/uploads/2018/01/logo3.png';
+      const content = <p><img src={pictUrl} /></p>;
+      ReactDOM.render(content, root);
+   </script>
+</body>
+<footer>
+
+</footer>
+
+</html>
